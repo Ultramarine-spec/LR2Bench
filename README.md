@@ -12,7 +12,7 @@ You can edit the tasks and models for generation in `launch.sh`. This script inc
 ```bash
 bash launch.sh
 ```
-Then run the `merge.sh` to get the JSON file like [submission_template.json](https://github.com/Ultramarine-spec/LR2Bench/submission_template.json) for submisson on our Leaderboard website and get your model's performance.
+Then run the `merge.sh` to get the JSON file like [submission_template.json](https://github.com/Ultramarine-spec/LR2Bench/blob/main/submission_template.json) for submisson on our Leaderboard website and get your model's performance.
 ```bash
 bash merge.sh
 ```
