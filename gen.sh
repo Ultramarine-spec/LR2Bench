@@ -26,6 +26,10 @@ if [ $task == "0-crossword" ]; then
                 --max_tokens $max_tokens \
                 --vllm \
                 --drop_zero_shot
+            
+            python extract_answer.py \
+                --outputs_root ./data/$task/$setting/outputs/$prompt_name/$model \
+                --task crossword
         done
     done
 elif [ $task == "1-acrostic" ]; then
@@ -47,6 +51,10 @@ elif [ $task == "1-acrostic" ]; then
                 --max_tokens $max_tokens \
                 --vllm \
                 --drop_zero_shot
+
+            python extract_answer.py \
+                --outputs_root ./data/$task/$setting/outputs/$prompt_name/$model \
+                --task acrostic
         done
     done
 elif [ $task == "2-logic" ]; then
@@ -68,6 +76,10 @@ elif [ $task == "2-logic" ]; then
                 --max_tokens $max_tokens \
                 --vllm \
                 --drop_zero_shot
+
+            python extract_answer.py \
+                --outputs_root ./data/$task/$setting/outputs/$prompt_name/$model \
+                --task logic
         done
     done
 elif [ $task == "3-cryptogram" ]; then
@@ -89,6 +101,10 @@ elif [ $task == "3-cryptogram" ]; then
                 --max_tokens $max_tokens \
                 --vllm \
                 --drop_zero_shot
+
+            python extract_answer.py \
+                --outputs_root ./data/$task/$setting/outputs/$prompt_name/$model \
+                --task cryptogram
         done
     done
 elif [ $task == "4-sudoku" ]; then
@@ -110,6 +126,10 @@ elif [ $task == "4-sudoku" ]; then
                 --max_tokens $max_tokens \
                 --vllm \
                 --drop_zero_shot
+            
+            python extract_answer.py \
+                --outputs_root ./data/$task/$setting/outputs/$prompt_name/$model \
+                --task sudoku
         done
     done
 elif [ $task == "5-drop" ]; then
@@ -131,6 +151,10 @@ elif [ $task == "5-drop" ]; then
                 --max_tokens $max_tokens \
                 --vllm \
                 --drop_zero_shot
+            
+            python extract_answer.py \
+                --outputs_root ./data/$task/$setting/outputs/$prompt_name/$model \
+                --task drop
         done
     done
 fi

@@ -16,7 +16,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, set_seed
 from openai_api import *
 
 model_root = "YOUR_MODEL_DIR"
-model_root = "/public/zhangjiajun/jhchen/huggingface/pretrained_model"
+# model_root = "/data_jhchen/huggingface/pretrained_model"
 
 model_dict = {
     "llama-3.1-8b": f"{model_root}/meta-llama/Meta-Llama-3.1-8B-Instruct",

@@ -8,7 +8,11 @@ Currently, we only provide the data samples without corresponding golden answers
 
 
 ## 💡 Generation
-You can edit the tasks and models for generation in `launch.sh`.
+You can edit the tasks and models for generation in `launch.sh`. This script including both model generation and answer extraction.
 ```bash
 bash launch.sh
+```
+Then run the `merge.sh` to get the JSON file like [submission_template.json](https://github.com/Ultramarine-spec/LR2Bench/submission_template.json) for submisson on our Leaderboard website and get your model's performance.
+```bash
+bash merge.sh
 ```
