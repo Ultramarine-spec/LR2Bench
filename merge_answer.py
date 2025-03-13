@@ -18,8 +18,8 @@ def arg_parser():
     parser.add_argument("--link", type=str, default=None)
     parser.add_argument("--params", type=int, default=None)
     parser.add_argument("--show_on_leaderboard", action="store_true")
-    parser.add_argument("--path_template", type=str, default="/public/zhangjiajun/jhchen/2410/data/{task}/{level}/outputs/prompt_deepseek.json/R1")
-    parser.add_argument("--output_dir", type=str, default="/public/zhangjiajun/jhchen/2410/submission/prompt_deepseek.json/R1")
+    parser.add_argument("--path_template", type=str, default=None)
+    parser.add_argument("--output_dir", type=str, default=None)
 
     return parser.parse_args()
 
