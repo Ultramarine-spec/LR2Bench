@@ -4,7 +4,7 @@
 </p>
 
 
-Currently, we only provide the data samples without corresponding golden answers. If you wish to test the model's performance or obtain more information, please contact us at our email address: [chenjianghao2022@ia.ac.cn](mailto:chenjianghao2022@ia.ac.cn). We will soon provide an automated evaluation system on our [leaderboard website](https://huggingface.co/spaces/UltraRonin/LR2Bench).
+We only provide the data samples without corresponding golden answers. If you wish to test the model's performance or obtain more information, please refer to on our [Leaderboard website](https://huggingface.co/spaces/UltraRonin/LR2Bench).
 
 
 ## 💡 Generation
